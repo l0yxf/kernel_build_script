@@ -13,14 +13,14 @@ DIST_DIR="$REPO_ROOT/dist"
 
 ARCH="arm64"
 CORES="$(nproc --all)"
-export KBUILD_BUILD_USER="Ren"
-export KBUILD_BUILD_HOST="Kagiyanagi"
+export KBUILD_BUILD_USER="Celestial"
+export KBUILD_BUILD_HOST="l0yxf"
 
 OUT_DIR="$REPO_ROOT/out"
 DTB_PATH="$OUT_DIR/arch/$ARCH/boot/dts/mediatek/mt6768.dtb"
 KERN_IMG="$OUT_DIR/arch/$ARCH/boot/Image.gz"
 
-ZIP_BASE="Aquamarine-kernel-gale-rksu"
+ZIP_BASE="Aurora_kernel"
 ZIP_NAME="${ZIP_BASE}-$(env TZ='Asia/Kolkata' date +%Y%m%d).zip"
 ZIP_WORKDIR="$DIST_DIR/$ZIP_BASE"
 
