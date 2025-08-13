@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Aquamarine Kernel for gale
+kernel.string=Aurora Kernel for gale
 do.devicecheck=1
 do.modules=0
 do.systemless=1
